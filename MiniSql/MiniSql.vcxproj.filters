@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="execute_engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="syntax_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="syntax_tree_printer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minisql_lex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minisql_yacc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_plus_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="index_iterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_plus_tree_internal_page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_plus_tree_leaf_page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_plus_tree_page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmap_page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="table_page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="row.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="column.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="schema.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer_pool_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="types.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="table_heap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="table_iterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="index_roots_page.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_plus_tree_index.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="catalog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="indexes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lru_replacer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="execute_engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="syntax_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="syntax_tree_printer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dberr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_file_mgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minisql_lex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minisql_yacc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="catalog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="indexes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer_pool_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="schema.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="column.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="table_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="table_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="row.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="type_id.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rowid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lru_replacer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="replacer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="b_plus_tree_internal_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="b_plus_tree_leaf_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="b_plus_tree_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_file_meta_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="index_roots_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rwlatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="b_plus_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="b_plus_tree_index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_comparator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generic_key.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="index_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="table_page.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
